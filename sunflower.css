@@ -1,0 +1,194 @@
+body {
+	background-color: rgba(0,200,0,0.8);
+    margin: 0;
+	}
+h1 {color:OrangeRed; }
+p {color:black;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #CCFF99;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input:focus, textarea:focus {
+    background-color: lightyellow;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+	background-color: #fff;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.imagesunflower { 
+	display: inline;
+}
+footer { 
+	padding-top: 30px;
+}	
+
+.green{
+  color:#805A3D;
+  background: repeating-linear-gradient(
+	  to right,
+	  #57433B,
+	  #57433B 10px,
+	  #805A3D 10px,
+	  #805A3D 20px
+  );
+  text-align:center;
+  height: 200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:64px;
+  padding-bottom:64px;
+}
+.green2{
+  background-color:#FCCE97;
+  text-align:center;
+width:90%;height:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:24px;
+  border: 3px dotted #571A32;
+
+}
+.green h1{
+font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size:43px;
+  line-height:4px;
+}
+.green h2{
+  color:#571A32;
+font-family: 'Nixie One', cursive;
+  font-weight:400;
+  font-size:34px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (min-width: 375px) { .sportsteams { width: 100px; font-size: 9px; } }
+@media screen and (min-width: 412px) { .sportsteams { width: 200px; font-size: 9px; } }
+@media screen and (min-width: 480px) { .sportsteams { width: 300px; } }
+@media screen and (min-width: 768px) { .sportsteams { width: 400px; } }
+@media screen and (min-width: 1074px) { .sportsteams { width: 500px; } }
